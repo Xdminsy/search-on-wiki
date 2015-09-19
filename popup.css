@@ -1,0 +1,13 @@
+body {
+    background-color: #EEE;
+    min-width: 20em;
+    max-width: 40em;
+}
+
+.bg {
+    display: inline-block;
+}
+
+#lang{
+    min-width: 10em;
+}

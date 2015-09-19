@@ -1,0 +1,1 @@
+Just a chrome extension for search on wiki.
