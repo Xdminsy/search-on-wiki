@@ -7,12 +7,7 @@
     <script src="popup.js"></script>
 </head>
 <body>
-    <div class='bg'>
-        <input id="data" type="text" name="text">
-        <input id="search" type="button" value="search">
-        <select id="lang" name="lang" multiple>
-            <option value="zh">中文</option>
-        </select>
-    </div>
+    <input id="data" type="text" name="text" autofocus>
+    <select id="lang" name="lang" required onchange="javascript:syncLanguage()"></select>
 </body>
 </html>
